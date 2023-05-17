@@ -1,14 +1,13 @@
 import { useEffect } from "react";
 
-export default function App() {
+export default function Recs() {
   useEffect(() => {
-    console.log("content view loaded");
+    console.log("recs loaded");
   }, []);
 
   return (
     <div className="content-view" style={{ marginBottom: "1500px" }}>
-      content view
-      <div className="mb-2">What comments should go here?</div>
+      recs
     </div>
   );
 }

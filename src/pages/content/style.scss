@@ -1,5 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import "@assets/style/theme.scss";
 
 .content-view {
-  font-size: 30px;
+  font-size: 100px;
+  margin-bottom: 1000px;
 }
